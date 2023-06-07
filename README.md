@@ -13,11 +13,10 @@ For the St. Louis data set: [stl_rain.csv](https://raw.githubusercontent.com/bri
 To know more about the data sources consult the [weather folder](https://github.com/brian-fischer/DATA-3320/tree/main/weather) in the [Github repository for DATA 3320](https://github.com/brian-fischer/DATA-3320).
 
 ## Analysis
-Numerical summaries and plots were created to have an overview of the data. They were grouped by city to compare Seattle and St. Louis. In order to determine the city in which it rains more, 3 approaches were considered:
+Numerical summaries and plots were created to have an overview of the data. They were grouped by city to compare Seattle and St. Louis. In order to determine the city in which it rains more, 2 approaches were considered:
 
 * Amount of precipitation in inches
 * Number of rainy days
-* Number of heavy rain days
 
 ### Amount of precipitation in inches
 A numerical summary with the function `describe` grouped by city. For further analysis, the mean of the precipitation was calculated by city and year. Bar plots were made to visualize the means by city and month.
@@ -25,5 +24,3 @@ A numerical summary with the function `describe` grouped by city. For further an
 ### Number of rainy days
 The number of rainy days was counted overall and by year. To see more detailed trends, bar plots of the mean of rainy days per month and city were created.
 
-### Number of heavy rain days
-As there is no unique definition of "heavy precipitation", it was decided to use outliers to count days of heavy rain days. Outliers are outside the normal so they do align with the definition of heavy rain given by [EPA](https://www.epa.gov/climate-indicators/climate-change-indicators-heavy-precipitation).
